@@ -59,6 +59,14 @@ Nestjs proporciona una manera para usar la libreria mongoose pero tiene problema
 
 Los archivos de test cases no están desarrollados, es solamente la estructura que viene por defecto con nestjs.
 
+Si tuviese que modificar y mejorar el proyecto haria las siguientes cosas:
+
+- Realizar el proyecto como multirepo, al tenerlos por separado se solucionarian los problemas anteriormente nombrados. Aunque se perderia los beneficios de multirepo.
+- Implementar una propia interface type/mongoose-paginate, ya que el problema que tiene es que no existe una.
+- Implementar docker, al ser multirepo es más sencilla su implementación
+- Implementar testing siguiendo las buenas prácticas recomendadas por nestjs
+- Buscar una mejor manera de implementar el uso de cookies con nestjs y swagger
+
 ## License
 
 Nest is [MIT licensed](LICENSE).
